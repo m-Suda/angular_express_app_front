@@ -1,0 +1,25 @@
+<div id="create-content">
+    <form [formGroup]="userForm">
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>UserId</mat-label>
+                <input matInput placeholder="UserId" [formControl]="userId">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>UserName</mat-label>
+                <input matInput placeholder="UserName" [formControl]="userName">
+            </mat-form-field>
+        </p>
+        <div id="button-area">
+            <div class="button">
+                <button mat-stroked-button color="primary" (click)="create()" [disabled]="userForm.invalid">Create
+                </button>
+            </div>
+            <div class="button">
+                <button mat-stroked-button routerLink="">Back</button>
+            </div>
+        </div>
+    </form>
+</div>

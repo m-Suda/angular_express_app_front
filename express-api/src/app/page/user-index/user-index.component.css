@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+}
+
+.right-parent {
+    text-align: right;
+    padding: 50px 200px 20px 200px;
+}
+
+.move-target {
+    display: inline-block;
+}

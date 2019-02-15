@@ -1,0 +1,11 @@
+#create-content {
+    padding-left: 300px;
+}
+
+#button-area {
+    display: flex;
+}
+
+.button {
+    padding: 20px;
+}
